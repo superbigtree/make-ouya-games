@@ -1,0 +1,101 @@
+html,
+body,
+input,
+button,
+select,
+textarea {
+  font: 16px/28px "Helvetica Neue", Helvetica, arial, sans-serif;
+  color: #555550;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+  margin: 30px 0px 10px 0px;
+}
+
+p {
+  margin-top: 0px;
+}
+
+a {
+  color: #E187B8;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #7E2054;
+}
+
+.container {
+  width: 100%;
+  margin: 0px auto;
+}
+
+.inner-wrapper {
+  width: 80%;
+  padding: 0px 10%;
+}
+
+header .container, 
+main .container,
+footer .container {
+  margin-top: 50px;
+}
+
+footer .container {
+  margin-bottom: 25px;
+}
+
+.cc {
+  font-size: 11px;
+  line-height: 18px;
+}
+
+.cc img {
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 540px;
+  }
+
+  .inner-wrapper {
+    width: 100%;
+    padding: 0px;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .container {
+    width: 800px;
+  }
+}
+
+/* clearfix */
+.row:before,
+.row:after,
+.container:before,
+.container:after {
+  content: " ";
+  display: table;
+}
+
+.row:after,
+.container:after {
+  clear: both;
+}
+
+.row,
+.container {
+  *zoom: 1;
+}
